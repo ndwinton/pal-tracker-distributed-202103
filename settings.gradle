@@ -15,9 +15,13 @@ include "components:users"
 include "components:rest-support"
 include "components:test-support"
 
+include "components:security"
+
 include "databases:allocations-database"
 include "databases:backlog-database"
 include "databases:registration-database"
 include "databases:timesheets-database"
 
 include "integration-test"
+
+include "platform-services:eureka-server"
