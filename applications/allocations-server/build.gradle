@@ -2,5 +2,5 @@ apply from: "$projectDir/../server.gradle"
 
 dependencies {
     compile project(":components:allocations")
-    compile project(":components:security")
+    compile project(":components:resource-server")
 }

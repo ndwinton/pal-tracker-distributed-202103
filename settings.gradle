@@ -12,10 +12,11 @@ include "components:projects"
 include "components:timesheets"
 include "components:users"
 
-include "components:rest-support"
+include "components:rest-client-support"
+include "components:rest-controller-support"
 include "components:test-support"
 
-include "components:security"
+include "components:resource-server"
 
 include "databases:allocations-database"
 include "databases:backlog-database"

@@ -4,5 +4,5 @@ dependencies {
     compile project(":components:accounts")
     compile project(":components:projects")
     compile project(":components:users")
-    compile project(":components:security")
+    compile project(":components:resource-server")
 }
