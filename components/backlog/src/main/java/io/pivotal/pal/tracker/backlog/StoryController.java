@@ -3,6 +3,8 @@ package io.pivotal.pal.tracker.backlog;
 import io.pivotal.pal.tracker.backlog.data.StoryDataGateway;
 import io.pivotal.pal.tracker.backlog.data.StoryFields;
 import io.pivotal.pal.tracker.backlog.data.StoryRecord;
+import io.pivotal.pal.tracker.projectclient.ProjectClient;
+import io.pivotal.pal.tracker.projectclient.ProjectInfo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

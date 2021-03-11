@@ -15,6 +15,7 @@ include "components:users"
 include "components:rest-client-support"
 include "components:rest-controller-support"
 include "components:test-support"
+include "components:project-client"
 
 include "components:resource-server"
 

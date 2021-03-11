@@ -1,4 +1,4 @@
-package io.pivotal.pal.tracker.timesheets;
+package io.pivotal.pal.tracker.projectclient;
 
 public class ProjectInfo {
 
